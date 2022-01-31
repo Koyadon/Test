@@ -32,3 +32,48 @@ body {
   text-align: center;
 }
 
+.menu {
+  font-size: 200%;
+  font-family: serif;
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #fff;
+  -webkit-box-shadow: 4px 4px 0 #000;
+  box-shadow: 4px 4px 0 #000;
+}
+.menu:hover {
+  -webkit-box-shadow: -4px -4px 0 #000;
+  box-shadow: -4px -4px 0 #000;
+}
+
+.delivery {
+  font-size: 200%;
+  font-family: serif;
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #fff;
+  -webkit-box-shadow: 4px 4px 0 #000;
+  box-shadow: 4px 4px 0 #000;
+}
+
+.delivery:hover{
+  -webkit-box-shadow: -4px -4px 0 #000;
+  box-shadow: -4px -4px 0 #000;
+}
+
+.takeout {
+  font-size: 200%;
+  font-family: serif;
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #fff;
+  -webkit-box-shadow: 4px 4px 0 #000;
+  box-shadow: 4px 4px 0 #000;
+}
+
+.takeout:hover {
+  -webkit-box-shadow: -4px -4px 0 #000;
+  box-shadow: -4px -4px 0 #000;
+}
+
+
