@@ -28,52 +28,37 @@ body {
   text-align: center;
 }
 
-.button_wrapper {
-  text-align: center;
+
+
+.textlink a {
+	position: relative;
+	color: #333;
+	text-decoration: none;
+}
+.textlink a:hover {
+	color: #b99b00;
 }
 
-.menu {
-  font-size: 200%;
-  font-family: serif;
-  border: 2px solid #000;
-  border-radius: 0;
-  background: #fff;
-  -webkit-box-shadow: 4px 4px 0 #000;
-  box-shadow: 4px 4px 0 #000;
-}
-.menu:hover {
-  -webkit-box-shadow: -4px -4px 0 #000;
-  box-shadow: -4px -4px 0 #000;
+.textlink01 a::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #ceb849;
+	transform: scaleX(0);
+	transition: transform 0.3s;
 }
 
-.delivery {
-  font-size: 200%;
-  font-family: serif;
-  border: 2px solid #000;
-  border-radius: 0;
-  background: #fff;
-  -webkit-box-shadow: 4px 4px 0 #000;
-  box-shadow: 4px 4px 0 #000;
+.textlink01 a:hover::after {
+	transform: scaleX(1);
 }
 
-.delivery:hover{
-  -webkit-box-shadow: -4px -4px 0 #000;
-  box-shadow: -4px -4px 0 #000;
+a {
+  font-size: 25px;
+  float: left;
 }
 
-.takeout {
-  font-size: 200%;
-  font-family: serif;
-  border: 2px solid #000;
-  border-radius: 0;
-  background: #fff;
-  -webkit-box-shadow: 4px 4px 0 #000;
-  box-shadow: 4px 4px 0 #000;
-}
-
-.takeout:hover {
-  -webkit-box-shadow: -4px -4px 0 #000;
-  box-shadow: -4px -4px 0 #000;
-}
 
 
