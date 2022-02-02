@@ -10,7 +10,7 @@ body {
 .title {
   color: black;
   -webkit-text-stroke:1px white;
-  line-height: 10;
+  line-height: 5;
   letter-spacing: 0.1em;
   font-size: 125px;
   font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,Hiragino Kaku Gothic ProN,Hiragino Sans,ヒラギノ角ゴ ProN W3,Arial,メイリオ,Meiryo,sans-serif;
@@ -27,8 +27,6 @@ body {
   font-family: serif;
   text-align: center;
 }
-
-
 
 .textlink a {
 	position: relative;
@@ -55,10 +53,27 @@ body {
 	transform: scaleX(1);
 }
 
-a {
-  font-size: 25px;
-  float: left;
+p {
+  text-align: center;
 }
 
+a {
+  font-size: 25px;
+}
 
+h1 {
+  padding: 10px;
+  animation: fadeIn 5s ease 1s 1 normal backwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 
