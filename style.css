@@ -1,5 +1,9 @@
 body {
   background-color: transparent;
+  background-image: url("images/niku.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
 }
 
 .title {
@@ -11,6 +15,23 @@ body {
   font-size: 300%;
   font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,Hiragino Kaku Gothic ProN,Hiragino Sans,ヒラギノ角ゴ ProN W3,Arial,メイリオ,Meiryo,sans-serif;
   text-align: center;
+  padding: 10px;
+  animation: fadeIn 5s ease 1s 1 normal backwards;
+}
+
+#select {
+  font-size: 100%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .explanation {
@@ -18,8 +39,8 @@ body {
   -webkit-text-stroke:0.5px white;
   line-height: 10;
   font-style: italic;
-  font-size: 100%;
-  font-weight: bold;
+  font-size: 200%;
+  
   font-family: serif;
   text-align: center;
 }
@@ -49,26 +70,6 @@ body {
 	transform: scaleX(1);
 }
 
-
-#select {
-  font-size: 100%;
-}
-
-h1 {
-  padding: 10px;
-  animation: fadeIn 5s ease 1s 1 normal backwards;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateX(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
 p {
   text-align: center;
 }
