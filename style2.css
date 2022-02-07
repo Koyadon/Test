@@ -1,5 +1,4 @@
-body {
-    
+  body {
     background-image: url("images/niku.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -7,7 +6,7 @@ body {
   }
   
   .title {
-    color: black;
+    color: black; 
     -webkit-text-stroke:1px white;
     line-height: 5;
     letter-spacing: 0.1em;
@@ -39,8 +38,7 @@ body {
     -webkit-text-stroke:0.5px white;
     line-height: 10;
     font-style: italic;
-    font-size: 200%;
-    
+    font-size: 200%; 
     font-family: serif;
     text-align: center;
   }
@@ -75,7 +73,7 @@ body {
     -webkit-text-stroke:0.5px white;
     line-height: 10;
     font-style: italic;
-    font-size: 200%;
+    font-size: 300%;
     
     font-family: serif;
     text-align: center;
@@ -86,11 +84,19 @@ body {
   }
 
   img {
-    object-fit: cover;
-    width: 200px;
-    height: 150px;
+    object-fit: contain;
+    width: 100%;
+    height: 50%;
   }
 
-  .noriben {
-    margin-left: 550px;;
+  table {
+    margin: 3px auto;
+}
+
+  td {
+    color: black;
+    -webkit-text-stroke:0.5px white;
+    font-size: 200%; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
   }
