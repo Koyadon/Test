@@ -1,5 +1,5 @@
   body {
-    background-image: url("images/niku.jpg");
+    background-image: url(images/paper.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -15,22 +15,10 @@
     font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,Hiragino Kaku Gothic ProN,Hiragino Sans,ヒラギノ角ゴ ProN W3,Arial,メイリオ,Meiryo,sans-serif;
     text-align: center;
     padding: 10px;
-    animation: fadeIn 5s ease 1s 1 normal backwards;
   }
   
   #select {
     font-size: 150%;
-  }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateX(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
   }
   
   .explanation {
@@ -71,7 +59,7 @@
   .ichiran {
     color: black;
     -webkit-text-stroke:0.5px white;
-    line-height: 10;
+    line-height: 3;
     font-style: italic;
     font-size: 300%;
     
@@ -84,21 +72,28 @@
   }
 
   img {
-    object-fit: cover;
+    width: 30%;
+    height: 30%;
+  }
+
+  ul {
+    display: inline-block;
     width: 50%;
-    height: 50%;
-  }
-
-  table {
-    margin: 3px auto;
-  }
-
-  td {
-    color: black;
-    -webkit-text-stroke:0.5px white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+	  height: 50%;
+    vertical-align: top;
+    background: #f3fbff;
+    border: 2px rgb(235, 135, 135) dashed;
+    list-style: none;
     font-size: 200%;
-    display:flex; 
-    justify-content:center;
+    font-family: serif;
+  }
+
+  .image {
+    padding: 20px;              /* 余白指定 */
+    height: 100%;              /* 高さ指定 */
+    text-align:  center;        /* 中央寄せ */
+  }
+
+  .img {
+    background-color: #f5c47b;  /* 背景色指定 */
   }
