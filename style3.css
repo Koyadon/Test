@@ -1,4 +1,4 @@
-  body {
+body {
     background-image: url(images/paper.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -61,7 +61,7 @@
     -webkit-text-stroke:0.5px white;
     line-height: 3;
     font-style: italic;
-    font-size: 300%; 
+    font-size: 300%;
     font-family: serif;
     text-align: center;
   }
@@ -70,29 +70,6 @@
     text-align: center;
   }
 
-  img {
-    width: 30%;
-    height: 30%;
-  }
-
   ul {
-    display: inline-block;
-    width: 50%;
-	  height: 50%;
-    vertical-align: top;
-    background: #f3fbff;
-    border: 2px rgb(235, 135, 135) dashed;
     list-style: none;
-    font-size: 200%;
-    font-family: serif;
-  }
-
-  .image {
-    padding: 20px;
-    height: 100%;
-    text-align: center;
-  }
-
-  .img {
-    background-color: #f5c47b;
   }

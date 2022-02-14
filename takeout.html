@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>新宿弁当テイクアウト</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+  <script src="js/bootstrap.min.js"></script>
+
+  <div class="textlink textlink01" id="select">
+    <p>
+      <a href="home.html">ホーム</a>
+      <a href="menu.html">メニュー</a>
+      <a href="takeout.html">テイクアウト予約</a>
+    </p>
+  </div>
+
+  <h1 class="ichiran">テイクアウト予約</h1>
+
+  <center>
+  <form method="post" action="sousin.html">
+    <dl>
+      <dt>お受け取り日時</dt>
+      <dd><input type="datetime-local"></dd>
+
+      <dt>商品選択</dt>
+      <dd>
+      
+      </dd>
+
+      <dt>お名前</dt>
+      <dd><input type="text" name="name"></dd>
+    
+      <dt>メールアドレス</dt>
+      <dd><input type="email" name="email"></dd>
+
+      <dt>備考欄</dt>
+      <dd><textarea name="message" cols="20" rows="8"></textarea></dd>
+
+      <dt>送信ボタン</dt>
+      <dd><input type="submit" value="送信"></dd>
+
+    </dl>
+  </form>
+  </center>
+
+</body>
+
+</html>
